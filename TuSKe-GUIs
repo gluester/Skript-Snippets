@@ -1,0 +1,5 @@
+command /command: # Doesn't have to be a command!:
+  trigger:
+    open virtual chest with size 1through5here named "Name!" to player
+    format gui slot 0 of player with item named "Item" lored "Item" to run: # 0 is the first slot.
+      send "Look at this gui!"
